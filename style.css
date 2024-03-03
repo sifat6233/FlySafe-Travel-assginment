@@ -1,0 +1,50 @@
+/* google font Roboto  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+/* header section ------------------- */
+.icon{
+    display: flex; 
+    align-items: center;
+}
+.icon h1 {
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.icon span {
+    color: #ff5400;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+.nav li {
+    list-style: none;
+    display: inline;
+}
+.nav li a {
+    text-decoration: none;
+    color: #000000ab;
+    padding: 0px 15px;
+    font-weight: 500;
+}
+.nav li a:hover {
+    color: #ff5400;
+}
+#active{
+    color: #ff5400;
+}
