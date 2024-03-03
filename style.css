@@ -160,6 +160,82 @@ i.fa-solid.fa-bars {
 
 
 
+/* popular tour section-------------------------- */
+
+.popular-tour-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+
+.popular-tour-img {
+    width: 50%;
+}
+.popular-tour-des h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+.popular-tour-des {
+    color: #000000ad;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-right: 30px;
+    width: 50%;
+}
+
+.popular-tour-img img {
+    width: 100%;
+}
+
+.popular-des-oreder-list {
+    padding: 15px 20px 15px 20px;
+}
+
+.popular-des-oreder-list li {
+    padding: 10px 0;
+}
+
+button#btn {
+    padding: 13px 35px;
+    border: none;
+    background: #ff5400;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button#btn:hover {
+    background: #bd370dc2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media section  */
 @media only screen and (max-width: 600px) {
     .container{
@@ -193,7 +269,7 @@ i.fa-solid.fa-bars {
     i.fa-solid.fa-bars {
         display: block;
     }
-    
+
     .travel-search-input {
         display: inline-table;
         left: 240px;
@@ -218,11 +294,30 @@ i.fa-solid.fa-bars {
     }
     
     .banner-find-travel-container{
-        height: 100vh;
+        padding: 40px 0;
     }
     
     .travel-search-container {
         width: auto;
         height: auto;
+    }
+
+
+    /* popular plan  */
+    .popular-tour-container{
+        display: inline-block;
+    }
+    .popular-tour-des{
+        width: 100%;
+        padding-right: 0;
+        margin-top: 40px;
+    }
+    .popular-tour-img{
+        width: 100%;
+        margin-top: 40px;
+    }
+    .popular-tour-des h1 {
+        font-size: 25px;
+        padding-bottom: 15px;
     }
 }
