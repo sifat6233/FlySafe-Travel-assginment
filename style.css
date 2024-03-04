@@ -229,9 +229,10 @@ button#btn:hover {
 }
 
 .destinations-title h6 {
-    font-size: 14px;
-    color: #000000a3;
+    font-size: 16px;
+    color: #0000008f;
     padding: 10px 0 50px 0;
+    font-weight: 500;
 }
 
 
@@ -331,6 +332,139 @@ p.desc-all {
     margin: auto;
     margin-top: 20px;
 }
+
+
+/* deals and discounts section ------------------- */
+.single-discount-offer img {
+    width: 100%;
+    height: 450px;
+}
+
+.single-discount-offer {
+    position: relative;
+}
+
+.single-discount-des {
+    width: 500px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 46px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    opacity: 0.9;
+}
+
+.single-discount-des-2 {
+    width: 500px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 46px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    opacity: 0.9;
+}
+
+.discount-offer-wrapper {
+    padding: 20px 0;
+}
+
+.discount-time {
+    display: flex;
+}
+
+.date-dis {
+    display: flex;
+}
+
+.max-dis {
+    display: flex;
+    padding-left: 20px;
+}
+
+.place-dis {
+    display: flex;
+    padding-left: 20px;
+}
+
+.discount-time i {
+    color: #ff5400;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.discount-time p {
+    color: #000000bf;
+    font-size: 15px;
+}
+
+.discount-desc h2 {
+    padding: 20px 0px;
+    font-size: 19px;
+}
+
+.discount-desc p {
+    line-height: 25px;
+    color: #000000b5;
+}
+
+.discount-desc h1 {
+    color: #ff5400;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* perfect place section --------------------------- */
+.perfect-place-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 90px 0px 20px 0px;
+}
+.perfect-place-video video {
+    width: 100%;
+    height: 430px;
+    border-radius: 10px;
+}
+
+.perfect-place-des h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 0px 40px 15px 0px;
+}
+
+.perfect-place-des p {
+    color: #000000ad;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-right: 30px;
+}
+
+.perfect-place-list {
+    padding: 20px 44px 15px 25px;
+}
+
+.perfect-place-list li {
+    color: black;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 10px 0 5px 0px;
+    font-size: 14px;
+}
+
 
 
 
@@ -629,7 +763,7 @@ hr.hr {
         width: 100%;
     }
     .footer-wrap {
-        padding: 60px 20px 10px 20px;
+        padding: 30px 20px 10px 20px;
     }
     
     
@@ -662,5 +796,41 @@ hr.hr {
     }
     hr.hr-2 {
         margin: 10px 0;
+    }
+
+    /* perfect place ------------------------ */
+    .perfect-place-wrapper{
+        display: block;
+    }
+    .perfect-place-des h1 {
+        font-size: 29px;
+        padding: 15px 30px 15px 0px;
+    }
+    .perfect-place-des p {
+        padding-right: 0;
+    }
+    .perfect-place-list {
+        padding: 20px 0px 15px 25px;
+    }
+    .perfect-place-video {
+        padding-top: 40px;
+    }
+
+
+    /* discount-section ---------------- */
+    .single-discount-offer img {
+        height: 650px;
+    }
+    .single-discount-des {
+        width: 78%;
+        top: 37%;
+        right: 4%;
+        padding: 25px;
+    }
+    .single-discount-des-2 {
+        width: 315px;
+        padding: 18px;
+        top: 40%;
+        left: 4%;
     }
 }
