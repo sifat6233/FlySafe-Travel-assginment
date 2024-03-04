@@ -625,6 +625,54 @@ hr.hr {
 
 
 
+/*---------------------- testimonial section----- */
+
+  .testi-item{
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px 30px;
+    border: 2px solid #00000054;;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow:inset;
+  }
+  .testi-author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .testi-author h3{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0 0 3px;
+  }
+  .testi-author span{
+    display: block;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  .testi-author img{
+    max-width: 60px;
+    border-radius: 50%;
+    border: 3px solid red;
+    transition: border-color 0.5s ease;
+  }
+  .testi-item:hover .testi-author img{
+    border-color: yellow;
+  }
+  .testi-item p{
+    margin: 15px 0;
+  }
+  .testi-item .ratings i{
+    font-size: 16px;
+    color: rgb(199, 116, 14);
+  }
+  
+  .row {
+    display: flex;
+    padding-top: 50px;
+}
+  
+
 
 
 
@@ -832,5 +880,13 @@ hr.hr {
         padding: 18px;
         top: 40%;
         left: 4%;
+    }
+
+    .row {
+        display: block;
+        padding-top: 50px;
+    }
+    .testi-item {
+        width: auto;
     }
 }
